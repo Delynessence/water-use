@@ -27,8 +27,8 @@
             </div>
         </div>
 
-        <h2><i class="fas fa-history"></i> Riwayat Pemakaian Air</h2>
-        <table border="1">
+        <h2>Riwayat Pemakaian Air</h2>
+        <table>
             <thead>
                 <tr>
                     <th>Tanggal</th>
@@ -39,9 +39,22 @@
             </thead>
             <tbody id="historyTable">
             </tbody>
+            <tfoot>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td id="sumFlowRate">0 L/min</td>
+                    <td id="sumTotalLiters">0 L</td>
+                    <td id="sumTotalCost">Rp 0</td>
+                </tr>
+            </tfoot>
         </table>
+
+        <div class="pagination">
+            <button id="prevPage" disabled>Previous</button>
+            <button id="nextPage">Next</button>
+        </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="data.js"></script>
 </body>
 </html>
