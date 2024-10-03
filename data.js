@@ -76,4 +76,4 @@ let data = [];
 
         // Panggil fetchData untuk mendapatkan dan menampilkan data secara real-time
         fetchData();
-        setInterval(fetchData, 10000);  // Update setiap 10 detik
+        setInterval(fetchData, 1000);  // Update setiap 1 detik
