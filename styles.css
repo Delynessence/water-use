@@ -45,8 +45,8 @@ h1 {
     transform: translateY(-5px); /* Lift effect on hover */
 }
 
-.value {
-    font-size: 24px;
+.value{
+    font-size: 1.3rem;
     font-weight: bold;
 }
 
@@ -84,3 +84,24 @@ th {
     background-color: #ccc;
     cursor: not-allowed;
 }
+
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    
+  .card{
+    padding: 2px;
+  }
+
+  table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  th, td {
+    padding: 8px;
+  }
+    
+  }
