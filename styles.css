@@ -91,10 +91,10 @@ th {
 /* Responsive Styles */
 @media only screen and (max-width: 768px) {
    
-    .value{
+    /* .value{
         font-size: 0.5rem;
         font-weight: bold;
-    }
+    } */
 
   .card{
     padding: 2px;
