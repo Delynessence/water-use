@@ -4,7 +4,7 @@ let data = [];
 
         // Function untuk mendapatkan data dari Google Spreadsheet dan memperbarui UI
         async function fetchData() {
-            const response = await fetch('https://script.google.com/macros/s/AKfycbw23vE7HATyJBHlxQOh5Wo_jux-tBhBeDbIgi7e6Y7F-tV69CyV48RbasmV0dFEZk4g/exec'); // Ganti dengan URL Google Apps Script
+            const response = await fetch('https://script.google.com/macros/s/AKfycbzp7dlKrN37DDqCkKjmuoDl3rlQwymAto03igGOXpEBsFu9hc_kAlv_N2PzqRcZA9-VEQ/exec'); // Ganti dengan URL Google Apps Script
             const result = await response.json();
             data = result.history;
 
